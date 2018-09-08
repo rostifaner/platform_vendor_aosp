@@ -13,16 +13,13 @@
 # limitations under the License.
 
 #Extended Versioning
-EXTENDED_VERSION = v5.8
+EXTENDED_VERSION = v5.8_by_rostifaner
 
 ifndef EXTENDED_BUILD_TYPE
     EXTENDED_BUILD_TYPE := UNOFFICIAL
 endif
 
 ifeq ($(EXTENDED_BUILD_TYPE), OFFICIAL)
-
-# AEXOTA
-$(call inherit-product-if-exists, vendor/aosp/config/ota.mk)
 
 endif
 

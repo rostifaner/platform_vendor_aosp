@@ -14,9 +14,9 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-#ViaBrowser
+#PrebuiltChrome
 include $(CLEAR_VARS)
-LOCAL_MODULE := ViaBrowser
+LOCAL_MODULE := PrebuiltChrome
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -24,9 +24,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-#AEXPapers
+#PrebuiltGooglePhoto
 include $(CLEAR_VARS)
-LOCAL_MODULE := AEXPapers
+LOCAL_MODULE := PrebuiltGooglePhoto
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -34,9 +34,29 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-#Retro Music Player
+#PrebuiltGmail
 include $(CLEAR_VARS)
-LOCAL_MODULE := RetroMusicPlayer
+LOCAL_MODULE := PrebuiltGmail
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#CalendarGooglePrebuilt
+include $(CLEAR_VARS)
+LOCAL_MODULE := CalendarGooglePrebuilt
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#Phonograph
+include $(CLEAR_VARS)
+LOCAL_MODULE := Phonograph
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
@@ -47,6 +67,16 @@ include $(BUILD_PREBUILT)
 #WallpaperPickerGoogle
 include $(CLEAR_VARS)
 LOCAL_MODULE := WallpaperPickerGoogle
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+#Gboard
+include $(CLEAR_VARS)
+LOCAL_MODULE := Gboard
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
