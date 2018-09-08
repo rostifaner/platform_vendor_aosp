@@ -50,6 +50,8 @@ endif
 
 PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
+    Clock \
+    Calculator \
     Terminal \
     Launcher3 \
     Gboard \
@@ -58,6 +60,7 @@ PRODUCT_PACKAGES += \
     PrebuiltGmail \
     PrebuiltGooglePhoto \
     PrebuiltChrome \
+    Bridge \
     Phonograph \
     Stk \
     WallpaperPickerGoogle \
