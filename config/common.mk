@@ -49,23 +49,24 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGES += \
+    Bridge \
     CalendarGooglePrebuilt \
     Clock \
     Calculator \
-    Terminal \
-    Launcher3 \
     Gboard \
     LiveWallpapers \
     LiveWallpapersPicker \
+    Launcher3 \
+    OmniJaws \
+    OmniStyle \
     PrebuiltGmail \
     PrebuiltGooglePhoto \
     PrebuiltChrome \
-    Bridge \
     Phonograph \
     Stk \
-    WallpaperPickerGoogle \
-    OmniJaws \
-    OmniStyle
+    Terminal \
+    Turbo \
+    WallpaperPickerGoogle
 
 # Themes
 # Accents
