@@ -116,7 +116,7 @@
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- AlwaysOnDisplay  -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
  
     <!-- System font packages (overlay in vendor) -->
     <string-array name="config_fontPackages" translatable="false">
