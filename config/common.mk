@@ -49,7 +49,6 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGES += \
-    Bridge \
     CalendarGooglePrebuilt \
     Clock \
     Calculator \
