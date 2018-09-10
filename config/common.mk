@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     Clock \
     Calculator \
-    Gboard \
+    LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
     Launcher3 \
