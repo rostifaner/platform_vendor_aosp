@@ -195,13 +195,6 @@ PRODUCT_COPY_FILES += \
 # Fix Dialer
 PRODUCT_COPY_FILES +=  \
     vendor/aosp/prebuilt/common/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
-    
-# Pixel Future
-PRODUCT_COPY_FILES +=  \
-    vendor/aosp/prebuilt/common/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
-    vendor/aosp/prebuilt/common/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/aosp/prebuilt/common/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
-    vendor/aosp/prebuilt/common/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
