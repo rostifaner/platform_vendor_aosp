@@ -62,6 +62,7 @@ PRODUCT_PACKAGES += \
     PrebuiltGooglePhoto \
     PrebuiltChrome \
     Phonograph \
+    ViaBrowser \
     Stk \
     Terminal \
     Turbo \
