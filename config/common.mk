@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     PrebuiltGmail \
     PrebuiltGooglePhoto \
-    PrebuiltChrome \
     Phonograph \
     ViaBrowser \
     Stk \
