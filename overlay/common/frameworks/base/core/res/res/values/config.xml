@@ -102,7 +102,7 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
 
     <!-- AlwaysOnDisplay  -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
 
     <!--AlwaysOnDisplay disabled by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
