@@ -62,8 +62,12 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     Stk \
     ViaBrowser \
-    AEXPapers \
+    Phonograph \
     RetroMusicPlayer \
+    CalendarGooglePrebuilt \
+    PrebuiltGmail \
+    PrebuiltGooglePhoto \
+    Gboard \
     WallpaperPickerGoogle \
     MarkupGoogle \
     WellbeingPrebuilt \
