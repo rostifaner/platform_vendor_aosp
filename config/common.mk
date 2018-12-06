@@ -57,7 +57,6 @@ endif
 
 PRODUCT_PACKAGES += \
     Terminal \
-    LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
