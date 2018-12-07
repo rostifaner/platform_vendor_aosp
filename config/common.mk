@@ -62,7 +62,6 @@ PRODUCT_PACKAGES += \
     Stk \
     ViaBrowser \
     Phonograph \
-    RetroMusicPlayer \
     CalendarGooglePrebuilt \
     PrebuiltGmail \
     PrebuiltGooglePhoto \
