@@ -22,8 +22,6 @@
         <item>com.android.location.fused</item>
     </string-array>
 
-    <bool name="config_cellBroadcastAppLinks">true</bool>
-
     <!-- Flag indicating whether the assist disclosure can be disabled using
          ASSIST_DISCLOSURE_ENABLED. -->
     <bool name="config_allowDisablingAssistDisclosure">true</bool>

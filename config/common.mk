@@ -50,25 +50,13 @@ PRODUCT_PACKAGES += \
     Gcam
 endif
 
-ifeq ($(TARGET_USE_JELLY),true)
-PRODUCT_PACKAGES += \
-    Jelly
-endif
-
 PRODUCT_PACKAGES += \
     Terminal \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
-    ViaBrowser \
     Phonograph \
-    CalendarGooglePrebuilt \
-    PrebuiltGmail \
-    PrebuiltGooglePhoto \
-    Gboard \
     WallpaperPickerGoogle \
-    MarkupGoogle \
-    WellbeingPrebuilt \
     Recorder \
     WeatherClient
 
